@@ -5,3 +5,5 @@ Change only USER and REPO with your github username and the name of the reposito
 
 So in my case, since USER=dagolinuxoid, REPO=curl-commandline I've prompted this:
 `curl -u dagolinuxoid https://api.github.com/user/repos -d '{ "name": "curl-commandline"}'`
+
+PS. git push 
