@@ -10,5 +10,5 @@ So in my case, since USER=dagolinuxoid, REPO=curl-commandline I've prompted this
 
 — TO DELETE
 
-:username = your username(github handler) :repo = a name of a repo you want to det rid of
+:username = your username(github handler) :repo = a name of a repo you want to get rid of
 `curl -u :username -X "DELETE" https://api.github.com/repos/:username/:repo`
