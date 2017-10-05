@@ -12,3 +12,10 @@ So in my case, since USER=dagolinuxoid, REPO=curl-commandline I've prompted this
 
 :username = your username(github handler) :repo = a name of a repo you want to get rid of
 `curl -u :username -X "DELETE" https://api.github.com/repos/:username/:repo`
+BTW you can create a simple script such as killrepo 
+```
+#!/bin/bash
+REPO=$1
+echo "do you REALLY wan to DELETE your GitHub $REPO ?"
+curl -u dagolinuxoid -X 'DELETE' https://api.github.com/repos/dagolinuxoid/$REPO
+```
